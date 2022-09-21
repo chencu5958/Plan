@@ -43,9 +43,12 @@ com.djrapitops.plan.delivery.web.resource
 com.djrapitops.plan.delivery.webserver
 com.djrapitops.plan.delivery.webserver.auth
 com.djrapitops.plan.delivery.webserver.cache
+com.djrapitops.plan.delivery.webserver.configuration
+com.djrapitops.plan.delivery.webserver.http
 com.djrapitops.plan.delivery.webserver.resolver
 com.djrapitops.plan.delivery.webserver.resolver.auth
 com.djrapitops.plan.delivery.webserver.resolver.json
+com.djrapitops.plan.delivery.webserver.resolver.swagger
 com.djrapitops.plan.exceptions
 com.djrapitops.plan.exceptions.connection
 com.djrapitops.plan.exceptions.database
@@ -70,6 +73,7 @@ com.djrapitops.plan.gathering.cache
 com.djrapitops.plan.gathering.domain
 com.djrapitops.plan.gathering.domain.builders
 com.djrapitops.plan.gathering.domain.event
+com.djrapitops.plan.gathering.events
 com.djrapitops.plan.gathering.geolocation
 com.djrapitops.plan.gathering.importing
 com.djrapitops.plan.gathering.importing.data
@@ -80,6 +84,7 @@ com.djrapitops.plan.gathering.listeners.bungee
 com.djrapitops.plan.gathering.listeners.nukkit
 com.djrapitops.plan.gathering.listeners.sponge
 com.djrapitops.plan.gathering.listeners.velocity
+com.djrapitops.plan.gathering.mixin
 com.djrapitops.plan.gathering.timed
 com.djrapitops.plan.identification
 com.djrapitops.plan.identification.properties
@@ -122,6 +127,7 @@ com.djrapitops.plan.storage.database.transactions.init
 com.djrapitops.plan.storage.database.transactions.patches
 com.djrapitops.plan.storage.file
 com.djrapitops.plan.storage.upkeep
+com.djrapitops.plan.unrelocate.org.slf4j
 com.djrapitops.plan.utilities
 com.djrapitops.plan.utilities.analysis
 com.djrapitops.plan.utilities.chat
@@ -135,6 +141,7 @@ net.playeranalytics.plan
 net.playeranalytics.plan.commands
 net.playeranalytics.plan.commands.use
 net.playeranalytics.plan.gathering
+net.playeranalytics.plan.gathering.domain
 net.playeranalytics.plan.gathering.listeners
 net.playeranalytics.plan.gathering.listeners.events
 net.playeranalytics.plan.gathering.listeners.events.mixin
